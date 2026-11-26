@@ -1,0 +1,673 @@
+id,date,rental_point,activity,channel,status,quantity,amount,refund_amount,comment
+BR-261101-00067,2026-11-01,ice_center,skate,site,paid,3,1950,0,Проверить размер ботинок
+BR-261101-00070,2026-11-01,ice_center,skate,site,paid,4,1800,0,Выдача по QR
+BR-261101-00071,2026-11-01,ice_center,skate,desk,pending,1,0,0,Подтверждение не получено
+BR-261101-00075,2026-11-01,ice_center,skate,site,pending,1,0,0,Подтверждение не получено
+BR-261101-00077,2026-11-01,ice_center,skate,site,paid,2,1300,0,"Два комплекта, выдача вместе"
+BR-261101-00080,2026-11-01,ice_center,skate,site,cancelled,3,0,0,Поменяли точку выдачи
+BR-261101-00082,2026-11-01,ice_center,skate,desk,paid,2,1300,0,"Два комплекта, выдача вместе"
+BR-261101-00086,2026-11-01,ice_center,skate,phone,paid,3,1350,0,Выдача по QR
+BR-261101-00089,2026-11-01,ice_center,skate,desk,paid,1,900,0,Шлемы заберут на стойке
+BR-261101-00091,2026-11-01,ice_center,skate,site,paid,2,900,0,
+BR-261101-00095,2026-11-01,ice_center,skate,site,paid,1,650,0,"Два комплекта, выдача вместе"
+BR-261101-00097,2026-11-01,forest_base,tube,site,paid,2,1400,0,"Два комплекта, выдача вместе"
+BR-261101-00101,2026-11-01,forest_base,tube,site,paid,5,3150,0,Оплата по ссылке
+BR-261101-00104,2026-11-01,forest_base,tube,site,paid,2,800,0,
+BR-261101-00106,2026-11-01,forest_base,tube,desk,paid,1,550,0,"Два комплекта, выдача вместе"
+BR-261101-00108,2026-11-01,forest_base,tube,site,paid,2,1100,0,
+BR-261101-00112,2026-11-01,forest_base,ski,desk,refunded,1,1200,1200,Не подошёл размер
+BR-261101-00116,2026-11-01,forest_base,ski,site,paid,1,900,0,Проверить размер ботинок
+BR-261101-00119,2026-11-01,forest_base,ski,desk,paid,2,1800,0,Шлемы заберут на стойке
+BR-261101-00121,2026-11-01,forest_base,tube,site,paid,2,1400,0,
+BR-261101-00122,2026-11-01,forest_base,ski,desk,paid,1,1200,0,"Два комплекта, выдача вместе"
+BR-261101-00124,2026-11-01,forest_base,ski,desk,pending,1,0,0,
+BR-261101-00127,2026-11-01,forest_base,ski,desk,paid,4,7200,0,"Два комплекта, выдача вместе"
+BR-261101-00131,2026-11-01,forest_base,tube,site,paid,3,1890,0,
+BR-261101-00133,2026-11-01,forest_base,ski,site,paid,2,1800,0,"Два комплекта, выдача вместе"
+BR-261101-00134,2026-11-01,forest_base,ski,site,paid,2,2160,0,
+BR-261101-00135,2026-11-01,north_slope,tube,site,paid,2,800,0,"Два комплекта, выдача вместе"
+BR-261101-00137,2026-11-01,north_slope,snowboard,desk,paid,1,1400,0,Шлемы заберут на стойке
+BR-261101-00140,2026-11-01,north_slope,snowboard,desk,paid,1,2200,0,Проверить размер ботинок
+BR-261101-00142,2026-11-01,north_slope,ski,phone,cancelled,3,0,0,Не подтвердили время
+BR-261101-00145,2026-11-01,north_slope,snowboard,phone,paid,1,1800,0,Выдача по QR
+BR-261101-00149,2026-11-01,north_slope,ski,desk,paid,1,1800,0,Выдача по QR
+BR-261101-00152,2026-11-01,north_slope,ski,site,cancelled,2,0,0,Отменено до оплаты
+BR-261101-00153,2026-11-01,north_slope,ski,desk,paid,2,2160,0,Выдача по QR
+BR-261101-00155,2026-11-01,north_slope,ski,site,paid,4,7200,0,
+BR-261101-00159,2026-11-01,north_slope,tube,site,refunded,2,1100,1100,Отмена до выдачи
+BR-261102-00094,2026-11-02,ice_center,skate,desk,paid,2,1620,0,
+BR-261102-00097,2026-11-02,ice_center,skate,phone,cancelled,5,0,0,Не подтвердили время
+BR-261102-00100,2026-11-02,ice_center,skate,site,paid,1,650,0,
+BR-261102-00101,2026-11-02,ice_center,skate,desk,paid,2,1800,0,Проверить размер ботинок
+BR-261102-00105,2026-11-02,ice_center,skate,site,cancelled,1,0,0,Отменено до оплаты
+BR-261102-00109,2026-11-02,ice_center,skate,site,paid,3,1950,0,"Два комплекта, выдача вместе"
+BR-261102-00112,2026-11-02,ice_center,skate,site,paid,1,900,0,Выдача по QR
+BR-261102-00113,2026-11-02,ice_center,skate,phone,paid,3,2700,0,"Два комплекта, выдача вместе"
+BR-261102-00114,2026-11-02,forest_base,ski,site,paid,1,1620,0,"Два комплекта, выдача вместе"
+BR-261102-00115,2026-11-02,forest_base,tube,phone,paid,6,2970,0,
+BR-261102-00118,2026-11-02,forest_base,tube,site,paid,3,1650,0,Оплата по ссылке
+BR-261102-00119,2026-11-02,forest_base,ski,phone,partially_refunded,3,5400,1800,Сдали один комплект раньше
+BR-261102-00123,2026-11-02,north_slope,ski,desk,paid,1,900,0,Шлемы заберут на стойке
+BR-261102-00124,2026-11-02,north_slope,snowboard,desk,paid,1,2200,0,
+BR-261102-00128,2026-11-02,north_slope,snowboard,site,paid,2,4400,0,Шлемы заберут на стойке
+BR-261102-00131,2026-11-02,north_slope,tube,site,partially_refunded,2,1400,700,Часть комплекта вернули
+BR-261102-00135,2026-11-02,north_slope,tube,desk,paid,2,1100,0,Оплата по ссылке
+BR-261102-00136,2026-11-02,north_slope,snowboard,site,paid,1,2200,0,"Два комплекта, выдача вместе"
+BR-261103-00091,2026-11-03,ice_center,skate,site,partially_refunded,1,450,225,Перенос части брони
+BR-261103-00092,2026-11-03,ice_center,skate,site,paid,1,450,0,Шлемы заберут на стойке
+BR-261103-00096,2026-11-03,ice_center,skate,site,paid,3,1755,0,Оплата по ссылке
+BR-261103-00100,2026-11-03,ice_center,skate,desk,paid,1,650,0,Шлемы заберут на стойке
+BR-261103-00104,2026-11-03,ice_center,skate,desk,paid,3,1350,0,
+BR-261103-00106,2026-11-03,forest_base,ski,site,pending,1,0,0,Ожидает оплату по ссылке
+BR-261103-00109,2026-11-03,forest_base,tube,site,paid,2,800,0,Проверить размер ботинок
+BR-261103-00113,2026-11-03,forest_base,ski,site,partially_refunded,1,1200,600,Сократили время проката
+BR-261103-00115,2026-11-03,forest_base,ski,site,paid,3,3600,0,Шлемы заберут на стойке
+BR-261103-00117,2026-11-03,forest_base,ski,site,pending,4,0,0,Ожидает оплату по ссылке
+BR-261103-00118,2026-11-03,forest_base,ski,site,paid,2,1800,0,Оплата по ссылке
+BR-261103-00122,2026-11-03,forest_base,ski,site,paid,1,900,0,
+BR-261103-00123,2026-11-03,forest_base,ski,desk,paid,2,2400,0,Оплата по ссылке
+BR-261103-00127,2026-11-03,north_slope,ski,desk,pending,1,0,0,Ожидает оплату по ссылке
+BR-261103-00130,2026-11-03,north_slope,ski,desk,paid,2,2400,0,Оплата по ссылке
+BR-261103-00132,2026-11-03,north_slope,ski,desk,paid,6,5400,0,Оплата по ссылке
+BR-261103-00135,2026-11-03,north_slope,snowboard,desk,paid,1,2200,0,Выдача по QR
+BR-261104-00059,2026-11-04,ice_center,skate,desk,paid,1,900,0,
+BR-261104-00062,2026-11-04,ice_center,skate,site,paid,2,1800,0,Выдача по QR
+BR-261104-00065,2026-11-04,ice_center,skate,desk,paid,4,2600,0,Выдача по QR
+BR-261104-00069,2026-11-04,ice_center,skate,site,paid,3,1950,0,
+BR-261104-00073,2026-11-04,ice_center,skate,site,cancelled,4,0,0,Поменяли точку выдачи
+BR-261104-00075,2026-11-04,ice_center,skate,site,paid,3,1950,0,Выдача по QR
+BR-261104-00078,2026-11-04,forest_base,ski,desk,paid,1,1200,0,Выдача по QR
+BR-261104-00081,2026-11-04,forest_base,tube,desk,paid,4,2800,0,
+BR-261104-00085,2026-11-04,forest_base,ski,site,paid,1,900,0,Выдача по QR
+BR-261104-00086,2026-11-04,forest_base,ski,site,paid,2,3600,0,
+BR-261104-00087,2026-11-04,forest_base,ski,site,paid,1,900,0,Шлемы заберут на стойке
+BR-261104-00091,2026-11-04,forest_base,ski,site,paid,2,1800,0,
+BR-261104-00094,2026-11-04,forest_base,ski,site,paid,1,1800,0,Оплата по ссылке
+BR-261104-00096,2026-11-04,north_slope,snowboard,site,paid,1,1260,0,Выдача по QR
+BR-261104-00100,2026-11-04,north_slope,snowboard,desk,pending,1,0,0,
+BR-261104-00101,2026-11-04,north_slope,ski,phone,paid,3,5400,0,
+BR-261104-00105,2026-11-04,north_slope,tube,site,paid,1,550,0,Выдача по QR
+BR-261104-00106,2026-11-04,north_slope,tube,site,paid,3,2100,0,Выдача по QR
+BR-261104-00107,2026-11-04,north_slope,ski,phone,paid,3,3600,0,Выдача по QR
+BR-261104-00109,2026-11-04,north_slope,ski,site,paid,1,1080,0,
+BR-261104-00111,2026-11-04,north_slope,tube,site,paid,1,700,0,"Два комплекта, выдача вместе"
+BR-261104-00113,2026-11-04,north_slope,ski,site,paid,2,2160,0,
+BR-261105-00098,2026-11-05,ice_center,skate,desk,paid,2,1800,0,
+BR-261105-00100,2026-11-05,ice_center,skate,site,paid,1,650,0,
+BR-261105-00104,2026-11-05,ice_center,skate,site,paid,1,450,0,
+BR-261105-00105,2026-11-05,ice_center,skate,site,paid,1,450,0,Оплата по ссылке
+BR-261105-00107,2026-11-05,ice_center,skate,phone,paid,2,1300,0,
+BR-261105-00111,2026-11-05,ice_center,skate,phone,refunded,1,450,450,Дублирующая бронь
+BR-261105-00114,2026-11-05,ice_center,skate,site,paid,2,900,0,"Два комплекта, выдача вместе"
+BR-261105-00117,2026-11-05,forest_base,ski,site,paid,2,1800,0,
+BR-261105-00120,2026-11-05,forest_base,tube,desk,paid,5,3500,0,"Два комплекта, выдача вместе"
+BR-261105-00122,2026-11-05,forest_base,tube,desk,paid,1,550,0,Выдача по QR
+BR-261105-00123,2026-11-05,forest_base,ski,site,paid,1,1200,0,Оплата по ссылке
+BR-261105-00127,2026-11-05,forest_base,tube,phone,paid,1,550,0,
+BR-261105-00129,2026-11-05,forest_base,ski,desk,cancelled,1,0,0,Не подтвердили время
+BR-261105-00131,2026-11-05,forest_base,ski,desk,paid,4,3600,0,Выдача по QR
+BR-261105-00134,2026-11-05,forest_base,ski,site,paid,1,1200,0,Проверить размер ботинок
+BR-261105-00137,2026-11-05,forest_base,ski,site,paid,1,1800,0,Проверить размер ботинок
+BR-261105-00141,2026-11-05,north_slope,ski,site,partially_refunded,2,2400,1200,Сократили время проката
+BR-261105-00143,2026-11-05,north_slope,ski,desk,paid,2,1800,0,
+BR-261105-00147,2026-11-05,north_slope,ski,desk,paid,3,3600,0,Шлемы заберут на стойке
+BR-261106-00094,2026-11-06,ice_center,skate,site,paid,2,900,0,Выдача по QR
+BR-261106-00097,2026-11-06,ice_center,skate,phone,paid,1,650,0,Проверить размер ботинок
+BR-261106-00098,2026-11-06,ice_center,skate,desk,paid,2,1300,0,
+BR-261106-00101,2026-11-06,ice_center,skate,desk,refunded,3,1755,1755,Не подошёл размер
+BR-261106-00102,2026-11-06,ice_center,skate,phone,paid,2,1800,0,Выдача по QR
+BR-261106-00105,2026-11-06,ice_center,skate,site,cancelled,2,0,0,Не подтвердили время
+BR-261106-00106,2026-11-06,ice_center,skate,desk,paid,2,900,0,
+BR-261106-00107,2026-11-06,ice_center,skate,desk,paid,2,900,0,
+BR-261106-00110,2026-11-06,ice_center,skate,desk,paid,1,900,0,Шлемы заберут на стойке
+BR-261106-00114,2026-11-06,ice_center,skate,site,paid,1,450,0,
+BR-261106-00117,2026-11-06,ice_center,skate,phone,paid,2,1300,0,
+BR-261106-00121,2026-11-06,forest_base,ski,site,pending,3,0,0,Подтверждение не получено
+BR-261106-00125,2026-11-06,forest_base,ski,desk,partially_refunded,1,1080,540,Часть комплекта вернули
+BR-261106-00126,2026-11-06,forest_base,ski,site,paid,1,900,0,Шлемы заберут на стойке
+BR-261106-00128,2026-11-06,forest_base,ski,site,partially_refunded,1,1800,900,Перенос части брони
+BR-261106-00130,2026-11-06,forest_base,tube,desk,paid,2,1400,0,Выдача по QR
+BR-261106-00132,2026-11-06,forest_base,ski,site,paid,5,6000,0,"Два комплекта, выдача вместе"
+BR-261106-00135,2026-11-06,north_slope,ski,site,paid,3,2700,0,
+BR-261106-00137,2026-11-06,north_slope,ski,site,paid,1,1200,0,"Два комплекта, выдача вместе"
+BR-261106-00141,2026-11-06,north_slope,ski,site,paid,2,1800,0,Проверить размер ботинок
+BR-261106-00145,2026-11-06,north_slope,ski,desk,paid,1,1620,0,Шлемы заберут на стойке
+BR-261107-00081,2026-11-07,ice_center,skate,site,paid,2,1800,0,
+BR-261107-00083,2026-11-07,ice_center,skate,desk,paid,4,3600,0,Оплата по ссылке
+BR-261107-00086,2026-11-07,ice_center,skate,site,paid,1,450,0,
+BR-261107-00087,2026-11-07,ice_center,skate,phone,paid,2,1300,0,
+BR-261107-00088,2026-11-07,ice_center,skate,desk,paid,2,1300,0,Проверить размер ботинок
+BR-261107-00089,2026-11-07,ice_center,skate,site,paid,2,1300,0,Выдача по QR
+BR-261107-00090,2026-11-07,ice_center,skate,desk,paid,3,2700,0,
+BR-261107-00092,2026-11-07,ice_center,skate,desk,paid,4,2600,0,
+BR-261107-00096,2026-11-07,ice_center,skate,phone,paid,5,2250,0,Выдача по QR
+BR-261107-00100,2026-11-07,ice_center,skate,site,paid,1,650,0,"Два комплекта, выдача вместе"
+BR-261107-00101,2026-11-07,ice_center,skate,desk,paid,4,2600,0,
+BR-261107-00104,2026-11-07,ice_center,skate,desk,refunded,1,650,650,Не подошёл размер
+BR-261107-00107,2026-11-07,ice_center,skate,site,paid,2,1170,0,
+BR-261107-00110,2026-11-07,ice_center,skate,site,paid,2,1800,0,Шлемы заберут на стойке
+BR-261107-00113,2026-11-07,ice_center,skate,site,paid,2,810,0,Проверить размер ботинок
+BR-261107-00115,2026-11-07,forest_base,ski,site,paid,2,3600,0,
+BR-261107-00119,2026-11-07,forest_base,ski,desk,partially_refunded,1,1200,600,Часть комплекта вернули
+BR-261107-00120,2026-11-07,forest_base,ski,site,paid,1,900,0,Оплата по ссылке
+BR-261107-00121,2026-11-07,forest_base,tube,desk,pending,5,0,0,Ожидает оплату по ссылке
+BR-261107-00125,2026-11-07,forest_base,ski,desk,paid,4,4800,0,
+BR-261107-00128,2026-11-07,forest_base,ski,desk,paid,1,1800,0,Проверить размер ботинок
+BR-261107-00132,2026-11-07,forest_base,tube,phone,paid,2,1400,0,Проверить размер ботинок
+BR-261107-00135,2026-11-07,forest_base,tube,site,pending,5,0,0,Подтверждение не получено
+BR-261107-00138,2026-11-07,forest_base,ski,site,paid,1,1200,0,Выдача по QR
+BR-261107-00142,2026-11-07,forest_base,tube,site,paid,1,550,0,
+BR-261107-00145,2026-11-07,forest_base,ski,phone,paid,6,5400,0,
+BR-261107-00147,2026-11-07,forest_base,tube,site,paid,1,700,0,
+BR-261107-00148,2026-11-07,forest_base,ski,site,paid,1,1800,0,Выдача по QR
+BR-261107-00150,2026-11-07,forest_base,ski,site,pending,2,0,0,Подтверждение не получено
+BR-261107-00154,2026-11-07,north_slope,ski,site,paid,1,1200,0,
+BR-261107-00157,2026-11-07,north_slope,tube,phone,paid,2,800,0,Оплата по ссылке
+BR-261107-00158,2026-11-07,north_slope,ski,site,paid,1,1800,0,Оплата по ссылке
+BR-261107-00162,2026-11-07,north_slope,tube,desk,refunded,1,550,550,Не подошёл размер
+BR-261107-00163,2026-11-07,north_slope,ski,desk,paid,2,1800,0,Шлемы заберут на стойке
+BR-261107-00166,2026-11-07,north_slope,ski,site,paid,1,900,0,
+BR-261107-00168,2026-11-07,north_slope,snowboard,site,paid,4,5040,0,
+BR-261107-00172,2026-11-07,north_slope,ski,site,paid,2,3600,0,
+BR-261107-00175,2026-11-07,north_slope,ski,site,partially_refunded,2,2400,1200,Перенос части брони
+BR-261108-00053,2026-11-08,ice_center,skate,site,paid,4,3240,0,
+BR-261108-00056,2026-11-08,ice_center,skate,desk,paid,1,900,0,Выдача по QR
+BR-261108-00060,2026-11-08,ice_center,skate,site,paid,3,1950,0,Оплата по ссылке
+BR-261108-00064,2026-11-08,ice_center,skate,site,paid,1,900,0,"Два комплекта, выдача вместе"
+BR-261108-00065,2026-11-08,ice_center,skate,site,paid,2,1800,0,Проверить размер ботинок
+BR-261108-00066,2026-11-08,ice_center,skate,phone,paid,3,1350,0,
+BR-261108-00067,2026-11-08,ice_center,skate,site,cancelled,2,0,0,Поменяли точку выдачи
+BR-261108-00070,2026-11-08,ice_center,skate,site,cancelled,3,0,0,Не подтвердили время
+BR-261108-00072,2026-11-08,ice_center,skate,desk,paid,2,1300,0,
+BR-261108-00074,2026-11-08,ice_center,skate,site,paid,3,2700,0,
+BR-261108-00078,2026-11-08,ice_center,skate,desk,paid,1,650,0,Шлемы заберут на стойке
+BR-261108-00081,2026-11-08,ice_center,skate,desk,paid,4,1620,0,
+BR-261108-00082,2026-11-08,ice_center,skate,desk,paid,2,1300,0,
+BR-261108-00085,2026-11-08,ice_center,skate,site,paid,1,585,0,"Два комплекта, выдача вместе"
+BR-261108-00086,2026-11-08,ice_center,skate,site,paid,1,650,0,Проверить размер ботинок
+BR-261108-00090,2026-11-08,ice_center,skate,desk,paid,4,1800,0,Шлемы заберут на стойке
+BR-261108-00091,2026-11-08,forest_base,ski,site,paid,2,1800,0,Шлемы заберут на стойке
+BR-261108-00095,2026-11-08,forest_base,ski,site,paid,1,1800,0,
+BR-261108-00099,2026-11-08,forest_base,ski,desk,paid,1,1800,0,Оплата по ссылке
+BR-261108-00103,2026-11-08,forest_base,tube,site,paid,1,550,0,Шлемы заберут на стойке
+BR-261108-00105,2026-11-08,forest_base,ski,desk,paid,1,900,0,Проверить размер ботинок
+BR-261108-00107,2026-11-08,forest_base,tube,desk,paid,3,1200,0,
+BR-261108-00108,2026-11-08,forest_base,ski,site,partially_refunded,2,2400,1200,Сдали один комплект раньше
+BR-261108-00111,2026-11-08,forest_base,ski,desk,paid,2,2400,0,Оплата по ссылке
+BR-261108-00114,2026-11-08,forest_base,tube,site,paid,1,700,0,Шлемы заберут на стойке
+BR-261108-00118,2026-11-08,forest_base,ski,site,cancelled,1,0,0,Поменяли точку выдачи
+BR-261108-00119,2026-11-08,forest_base,ski,site,refunded,3,5400,5400,Отмена до выдачи
+BR-261108-00122,2026-11-08,forest_base,tube,site,paid,1,400,0,Шлемы заберут на стойке
+BR-261108-00123,2026-11-08,forest_base,ski,site,paid,2,1800,0,
+BR-261108-00126,2026-11-08,forest_base,ski,site,paid,3,3600,0,
+BR-261108-00129,2026-11-08,north_slope,ski,desk,paid,2,3600,0,Проверить размер ботинок
+BR-261108-00133,2026-11-08,north_slope,ski,site,paid,4,4320,0,Выдача по QR
+BR-261108-00135,2026-11-08,north_slope,tube,desk,refunded,2,1100,1100,Отмена до выдачи
+BR-261108-00137,2026-11-08,north_slope,ski,site,paid,2,3600,0,
+BR-261108-00140,2026-11-08,north_slope,snowboard,phone,paid,1,2200,0,Оплата по ссылке
+BR-261108-00142,2026-11-08,north_slope,ski,desk,paid,2,3600,0,Проверить размер ботинок
+BR-261108-00145,2026-11-08,north_slope,ski,site,paid,2,1800,0,
+BR-261108-00149,2026-11-08,north_slope,snowboard,phone,paid,1,1800,0,Выдача по QR
+BR-261108-00152,2026-11-08,north_slope,ski,desk,paid,1,1200,0,Оплата по ссылке
+BR-261108-00154,2026-11-08,north_slope,tube,desk,cancelled,4,0,0,Не подтвердили время
+BR-261108-00155,2026-11-08,north_slope,ski,phone,partially_refunded,2,3600,1800,Сдали один комплект раньше
+BR-261108-00158,2026-11-08,north_slope,ski,site,paid,2,3600,0,Шлемы заберут на стойке
+BR-261108-00161,2026-11-08,north_slope,ski,site,paid,4,7200,0,Выдача по QR
+BR-261108-00164,2026-11-08,north_slope,ski,phone,paid,3,3600,0,Выдача по QR
+BR-261108-00168,2026-11-08,north_slope,snowboard,desk,paid,3,4860,0,
+BR-261109-00053,2026-11-09,ice_center,skate,desk,paid,4,2600,0,"Два комплекта, выдача вместе"
+BR-261109-00057,2026-11-09,ice_center,skate,site,paid,1,450,0,Проверить размер ботинок
+BR-261109-00058,2026-11-09,ice_center,skate,desk,refunded,4,2600,2600,Не подошёл размер
+BR-261109-00059,2026-11-09,ice_center,skate,site,partially_refunded,2,1800,900,Перенос части брони
+BR-261109-00061,2026-11-09,ice_center,skate,desk,pending,1,0,0,Ожидает оплату по ссылке
+BR-261109-00064,2026-11-09,ice_center,skate,site,paid,2,1800,0,Проверить размер ботинок
+BR-261109-00066,2026-11-09,ice_center,skate,phone,paid,3,1350,0,Проверить размер ботинок
+BR-261109-00069,2026-11-09,forest_base,ski,desk,paid,1,900,0,Оплата по ссылке
+BR-261109-00072,2026-11-09,forest_base,ski,desk,paid,1,810,0,"Два комплекта, выдача вместе"
+BR-261109-00074,2026-11-09,forest_base,tube,desk,paid,1,550,0,Шлемы заберут на стойке
+BR-261109-00075,2026-11-09,forest_base,tube,site,paid,2,800,0,Оплата по ссылке
+BR-261109-00077,2026-11-09,forest_base,ski,site,paid,2,3600,0,Проверить размер ботинок
+BR-261109-00081,2026-11-09,north_slope,tube,site,paid,1,700,0,
+BR-261109-00085,2026-11-09,north_slope,snowboard,site,paid,2,2800,0,Шлемы заберут на стойке
+BR-261109-00088,2026-11-09,north_slope,tube,desk,paid,2,1100,0,Шлемы заберут на стойке
+BR-261109-00092,2026-11-09,north_slope,ski,site,cancelled,2,0,0,Не подтвердили время
+BR-261109-00096,2026-11-09,north_slope,snowboard,site,paid,3,4860,0,Оплата по ссылке
+BR-261109-00099,2026-11-09,north_slope,snowboard,phone,paid,1,1800,0,Выдача по QR
+BR-261109-00101,2026-11-09,north_slope,ski,site,cancelled,1,0,0,Отменено до оплаты
+BR-261109-00104,2026-11-09,north_slope,ski,site,paid,1,1200,0,
+BR-261109-00107,2026-11-09,north_slope,snowboard,site,paid,2,2800,0,Шлемы заберут на стойке
+BR-261110-00054,2026-11-10,ice_center,skate,site,paid,1,900,0,Оплата по ссылке
+BR-261110-00055,2026-11-10,ice_center,skate,site,paid,1,585,0,Выдача по QR
+BR-261110-00056,2026-11-10,ice_center,skate,site,refunded,1,650,650,Дублирующая бронь
+BR-261110-00060,2026-11-10,ice_center,skate,site,paid,2,1300,0,Оплата по ссылке
+BR-261110-00062,2026-11-10,ice_center,skate,desk,paid,2,1300,0,
+BR-261110-00063,2026-11-10,ice_center,skate,site,paid,1,900,0,
+BR-261110-00064,2026-11-10,ice_center,skate,phone,paid,2,1300,0,
+BR-261110-00068,2026-11-10,ice_center,skate,phone,paid,1,900,0,Шлемы заберут на стойке
+BR-261110-00069,2026-11-10,ice_center,skate,site,paid,2,1800,0,
+BR-261110-00073,2026-11-10,ice_center,skate,desk,paid,3,2700,0,Шлемы заберут на стойке
+BR-261110-00074,2026-11-10,forest_base,ski,site,paid,1,900,0,
+BR-261110-00076,2026-11-10,forest_base,tube,site,paid,4,1980,0,Выдача по QR
+BR-261110-00078,2026-11-10,forest_base,ski,site,paid,1,1800,0,
+BR-261110-00079,2026-11-10,forest_base,ski,desk,refunded,2,1800,1800,Возврат по погоде
+BR-261110-00081,2026-11-10,forest_base,tube,site,paid,1,550,0,Оплата по ссылке
+BR-261110-00085,2026-11-10,forest_base,ski,phone,paid,2,1800,0,"Два комплекта, выдача вместе"
+BR-261110-00087,2026-11-10,forest_base,tube,site,paid,1,550,0,
+BR-261110-00088,2026-11-10,north_slope,ski,site,paid,3,5400,0,
+BR-261110-00091,2026-11-10,north_slope,ski,site,paid,1,1800,0,Проверить размер ботинок
+BR-261110-00095,2026-11-10,north_slope,snowboard,desk,paid,2,4400,0,"Два комплекта, выдача вместе"
+BR-261110-00098,2026-11-10,north_slope,snowboard,site,paid,2,3600,0,
+BR-261110-00102,2026-11-10,north_slope,ski,site,partially_refunded,2,3600,1800,Перенос части брони
+BR-261110-00106,2026-11-10,north_slope,ski,site,paid,1,1800,0,Проверить размер ботинок
+BR-261110-00108,2026-11-10,north_slope,ski,site,paid,2,2400,0,
+BR-261110-00111,2026-11-10,north_slope,ski,site,paid,3,4860,0,
+BR-261110-00115,2026-11-10,north_slope,tube,site,paid,2,1400,0,Проверить размер ботинок
+BR-261111-00070,2026-11-11,ice_center,skate,site,paid,4,1800,0,Выдача по QR
+BR-261111-00071,2026-11-11,ice_center,skate,site,paid,2,1800,0,Шлемы заберут на стойке
+BR-261111-00072,2026-11-11,ice_center,skate,site,paid,1,450,0,
+BR-261111-00075,2026-11-11,ice_center,skate,site,paid,1,900,0,Выдача по QR
+BR-261111-00079,2026-11-11,ice_center,skate,site,paid,2,1620,0,
+BR-261111-00080,2026-11-11,ice_center,skate,desk,paid,1,900,0,Шлемы заберут на стойке
+BR-261111-00082,2026-11-11,ice_center,skate,site,paid,1,650,0,
+BR-261111-00085,2026-11-11,ice_center,skate,site,paid,4,3600,0,
+BR-261111-00089,2026-11-11,ice_center,skate,phone,paid,1,900,0,Шлемы заберут на стойке
+BR-261111-00091,2026-11-11,forest_base,tube,phone,paid,2,720,0,Проверить размер ботинок
+BR-261111-00095,2026-11-11,forest_base,ski,desk,paid,2,1800,0,
+BR-261111-00097,2026-11-11,forest_base,ski,desk,paid,1,900,0,Выдача по QR
+BR-261111-00098,2026-11-11,forest_base,ski,desk,paid,3,3600,0,Шлемы заберут на стойке
+BR-261111-00099,2026-11-11,forest_base,ski,desk,paid,1,1200,0,
+BR-261111-00103,2026-11-11,forest_base,ski,phone,paid,1,900,0,Выдача по QR
+BR-261111-00105,2026-11-11,north_slope,snowboard,site,paid,2,4400,0,
+BR-261111-00107,2026-11-11,north_slope,snowboard,desk,cancelled,2,0,0,Не подтвердили время
+BR-261111-00109,2026-11-11,north_slope,ski,site,refunded,4,3600,3600,Отмена до выдачи
+BR-261111-00110,2026-11-11,north_slope,snowboard,site,paid,3,4200,0,Шлемы заберут на стойке
+BR-261111-00114,2026-11-11,north_slope,ski,site,paid,1,1800,0,"Два комплекта, выдача вместе"
+BR-261111-00115,2026-11-11,north_slope,ski,site,pending,6,0,0,Подтверждение не получено
+BR-261111-00117,2026-11-11,north_slope,ski,site,paid,2,1800,0,
+BR-261111-00121,2026-11-11,north_slope,tube,phone,paid,2,800,0,
+BR-261112-00042,2026-11-12,ice_center,skate,desk,paid,2,900,0,Проверить размер ботинок
+BR-261112-00044,2026-11-12,ice_center,skate,site,paid,1,650,0,Шлемы заберут на стойке
+BR-261112-00048,2026-11-12,ice_center,skate,desk,paid,3,2700,0,
+BR-261112-00050,2026-11-12,ice_center,skate,desk,pending,4,0,0,
+BR-261112-00053,2026-11-12,ice_center,skate,desk,paid,4,1800,0,Оплата по ссылке
+BR-261112-00054,2026-11-12,ice_center,skate,site,paid,1,900,0,
+BR-261112-00055,2026-11-12,forest_base,tube,desk,cancelled,4,0,0,Не подтвердили время
+BR-261112-00059,2026-11-12,forest_base,ski,phone,paid,4,7200,0,Проверить размер ботинок
+BR-261112-00060,2026-11-12,forest_base,ski,desk,partially_refunded,2,2400,1200,Сократили время проката
+BR-261112-00063,2026-11-12,north_slope,snowboard,site,paid,2,2800,0,Оплата по ссылке
+BR-261112-00065,2026-11-12,north_slope,ski,desk,paid,2,3600,0,"Два комплекта, выдача вместе"
+BR-261112-00066,2026-11-12,north_slope,ski,phone,paid,1,1200,0,"Два комплекта, выдача вместе"
+BR-261113-00058,2026-11-13,ice_center,skate,desk,paid,3,2700,0,Проверить размер ботинок
+BR-261113-00061,2026-11-13,ice_center,skate,site,paid,3,1950,0,Шлемы заберут на стойке
+BR-261113-00065,2026-11-13,ice_center,skate,site,paid,2,1300,0,Выдача по QR
+BR-261113-00069,2026-11-13,ice_center,skate,site,paid,4,2600,0,Выдача по QR
+BR-261113-00072,2026-11-13,ice_center,skate,site,paid,3,2700,0,
+BR-261113-00076,2026-11-13,ice_center,skate,phone,paid,2,1800,0,
+BR-261113-00078,2026-11-13,ice_center,skate,desk,paid,1,900,0,
+BR-261113-00082,2026-11-13,ice_center,skate,site,refunded,2,1800,1800,Не подошёл размер
+BR-261113-00084,2026-11-13,ice_center,skate,phone,refunded,4,1800,1800,Не подошёл размер
+BR-261113-00088,2026-11-13,ice_center,skate,desk,paid,1,450,0,Оплата по ссылке
+BR-261113-00091,2026-11-13,ice_center,skate,site,paid,4,1800,0,
+BR-261113-00095,2026-11-13,forest_base,ski,desk,paid,2,3600,0,Оплата по ссылке
+BR-261113-00097,2026-11-13,forest_base,ski,desk,paid,1,1200,0,
+BR-261113-00098,2026-11-13,forest_base,ski,site,partially_refunded,3,5400,1800,Перенос части брони
+BR-261113-00100,2026-11-13,forest_base,ski,site,paid,2,2400,0,
+BR-261113-00101,2026-11-13,forest_base,tube,phone,paid,1,700,0,Шлемы заберут на стойке
+BR-261113-00104,2026-11-13,forest_base,ski,desk,paid,1,1800,0,Выдача по QR
+BR-261113-00108,2026-11-13,forest_base,ski,site,paid,2,3600,0,Оплата по ссылке
+BR-261113-00111,2026-11-13,north_slope,snowboard,site,paid,1,1800,0,Шлемы заберут на стойке
+BR-261113-00114,2026-11-13,north_slope,snowboard,phone,paid,3,5400,0,
+BR-261113-00118,2026-11-13,north_slope,snowboard,site,partially_refunded,1,2200,1100,Сократили время проката
+BR-261113-00121,2026-11-13,north_slope,ski,desk,paid,1,1800,0,Шлемы заберут на стойке
+BR-261114-00043,2026-11-14,ice_center,skate,desk,paid,4,2600,0,
+BR-261114-00044,2026-11-14,ice_center,skate,site,paid,2,1300,0,Шлемы заберут на стойке
+BR-261114-00046,2026-11-14,ice_center,skate,phone,paid,1,900,0,Оплата по ссылке
+BR-261114-00049,2026-11-14,ice_center,skate,site,paid,3,1350,0,Проверить размер ботинок
+BR-261114-00050,2026-11-14,ice_center,skate,desk,paid,1,650,0,
+BR-261114-00052,2026-11-14,ice_center,skate,site,paid,3,1950,0,Оплата по ссылке
+BR-261114-00054,2026-11-14,ice_center,skate,site,paid,1,900,0,
+BR-261114-00055,2026-11-14,ice_center,skate,desk,paid,2,900,0,
+BR-261114-00058,2026-11-14,ice_center,skate,phone,paid,4,2600,0,Выдача по QR
+BR-261114-00061,2026-11-14,ice_center,skate,site,paid,6,3900,0,
+BR-261114-00065,2026-11-14,ice_center,skate,site,paid,2,1300,0,
+BR-261114-00069,2026-11-14,ice_center,skate,site,paid,1,900,0,
+BR-261114-00072,2026-11-14,ice_center,skate,desk,paid,1,650,0,Шлемы заберут на стойке
+BR-261114-00073,2026-11-14,ice_center,skate,desk,paid,2,1300,0,Шлемы заберут на стойке
+BR-261114-00077,2026-11-14,ice_center,skate,site,paid,1,900,0,Проверить размер ботинок
+BR-261114-00079,2026-11-14,forest_base,ski,desk,cancelled,2,0,0,Поменяли точку выдачи
+BR-261114-00081,2026-11-14,forest_base,tube,desk,partially_refunded,1,400,200,Сократили время проката
+BR-261114-00082,2026-11-14,forest_base,tube,desk,cancelled,1,0,0,Отменено до оплаты
+BR-261114-00084,2026-11-14,forest_base,ski,phone,paid,2,1800,0,Оплата по ссылке
+BR-261114-00087,2026-11-14,forest_base,ski,desk,paid,5,9000,0,"Два комплекта, выдача вместе"
+BR-261114-00089,2026-11-14,forest_base,tube,desk,paid,4,1600,0,Проверить размер ботинок
+BR-261114-00093,2026-11-14,forest_base,ski,site,paid,1,1800,0,Выдача по QR
+BR-261114-00096,2026-11-14,forest_base,tube,site,paid,3,1650,0,"Два комплекта, выдача вместе"
+BR-261114-00098,2026-11-14,forest_base,tube,phone,paid,1,550,0,"Два комплекта, выдача вместе"
+BR-261114-00101,2026-11-14,forest_base,tube,site,paid,1,700,0,
+BR-261114-00104,2026-11-14,north_slope,ski,site,paid,1,1200,0,Проверить размер ботинок
+BR-261114-00105,2026-11-14,north_slope,snowboard,site,paid,1,1800,0,"Два комплекта, выдача вместе"
+BR-261114-00106,2026-11-14,north_slope,ski,site,paid,2,1800,0,Оплата по ссылке
+BR-261114-00107,2026-11-14,north_slope,ski,site,paid,1,1800,0,Проверить размер ботинок
+BR-261114-00109,2026-11-14,north_slope,tube,phone,paid,3,1080,0,Оплата по ссылке
+BR-261114-00112,2026-11-14,north_slope,ski,desk,paid,2,1800,0,
+BR-261114-00115,2026-11-14,north_slope,ski,site,paid,2,2400,0,
+BR-261114-00117,2026-11-14,north_slope,ski,site,paid,2,2160,0,Проверить размер ботинок
+BR-261114-00118,2026-11-14,north_slope,ski,site,paid,1,1200,0,Проверить размер ботинок
+BR-261114-00121,2026-11-14,north_slope,tube,phone,paid,2,1100,0,Оплата по ссылке
+BR-261114-00122,2026-11-14,north_slope,ski,desk,paid,2,3600,0,Выдача по QR
+BR-261114-00126,2026-11-14,north_slope,snowboard,site,paid,1,1800,0,Проверить размер ботинок
+BR-261114-00128,2026-11-14,north_slope,tube,site,paid,1,700,0,Проверить размер ботинок
+BR-261115-00039,2026-11-15,ice_center,skate,desk,paid,1,900,0,
+BR-261115-00042,2026-11-15,ice_center,skate,phone,paid,1,900,0,Оплата по ссылке
+BR-261115-00045,2026-11-15,ice_center,skate,site,paid,1,900,0,
+BR-261115-00049,2026-11-15,ice_center,skate,site,paid,4,2600,0,"Два комплекта, выдача вместе"
+BR-261115-00051,2026-11-15,ice_center,skate,site,paid,1,450,0,
+BR-261115-00052,2026-11-15,ice_center,skate,site,paid,2,1800,0,Выдача по QR
+BR-261115-00053,2026-11-15,ice_center,skate,desk,paid,3,1350,0,Шлемы заберут на стойке
+BR-261115-00057,2026-11-15,ice_center,skate,desk,pending,3,0,0,
+BR-261115-00059,2026-11-15,ice_center,skate,site,paid,2,1300,0,Шлемы заберут на стойке
+BR-261115-00062,2026-11-15,ice_center,skate,site,partially_refunded,2,1300,650,Сократили время проката
+BR-261115-00064,2026-11-15,ice_center,skate,site,paid,1,450,0,
+BR-261115-00066,2026-11-15,ice_center,skate,site,paid,2,1300,0,Оплата по ссылке
+BR-261115-00070,2026-11-15,ice_center,skate,site,paid,2,900,0,"Два комплекта, выдача вместе"
+BR-261115-00072,2026-11-15,ice_center,skate,site,paid,1,650,0,Оплата по ссылке
+BR-261115-00073,2026-11-15,ice_center,skate,site,paid,1,900,0,
+BR-261115-00075,2026-11-15,ice_center,skate,desk,paid,2,900,0,
+BR-261115-00076,2026-11-15,ice_center,skate,site,paid,2,900,0,Проверить размер ботинок
+BR-261115-00078,2026-11-15,forest_base,ski,site,paid,1,1200,0,Оплата по ссылке
+BR-261115-00081,2026-11-15,forest_base,tube,desk,paid,4,2200,0,
+BR-261115-00083,2026-11-15,forest_base,ski,site,paid,6,10800,0,Оплата по ссылке
+BR-261115-00084,2026-11-15,forest_base,ski,site,paid,4,7200,0,
+BR-261115-00086,2026-11-15,forest_base,tube,desk,paid,1,550,0,Выдача по QR
+BR-261115-00089,2026-11-15,forest_base,ski,site,paid,1,1200,0,
+BR-261115-00091,2026-11-15,forest_base,ski,desk,paid,4,7200,0,
+BR-261115-00092,2026-11-15,forest_base,ski,site,refunded,1,900,900,Не подошёл размер
+BR-261115-00093,2026-11-15,forest_base,ski,site,paid,6,7200,0,Оплата по ссылке
+BR-261115-00094,2026-11-15,forest_base,ski,site,paid,2,2400,0,
+BR-261115-00096,2026-11-15,forest_base,ski,desk,cancelled,2,0,0,Поменяли точку выдачи
+BR-261115-00100,2026-11-15,forest_base,ski,site,paid,1,900,0,Оплата по ссылке
+BR-261115-00103,2026-11-15,forest_base,ski,desk,paid,2,3600,0,Оплата по ссылке
+BR-261115-00105,2026-11-15,forest_base,tube,site,paid,3,2100,0,Оплата по ссылке
+BR-261115-00107,2026-11-15,forest_base,ski,desk,cancelled,1,0,0,Не подтвердили время
+BR-261115-00108,2026-11-15,north_slope,ski,desk,paid,2,2400,0,Оплата по ссылке
+BR-261115-00109,2026-11-15,north_slope,tube,site,pending,2,0,0,Ожидает оплату по ссылке
+BR-261115-00112,2026-11-15,north_slope,ski,site,paid,4,4800,0,
+BR-261115-00116,2026-11-15,north_slope,snowboard,site,refunded,1,1800,1800,Отмена до выдачи
+BR-261115-00119,2026-11-15,north_slope,tube,desk,cancelled,1,0,0,Отменено до оплаты
+BR-261115-00123,2026-11-15,north_slope,ski,site,paid,2,3240,0,Шлемы заберут на стойке
+BR-261115-00125,2026-11-15,north_slope,ski,site,paid,3,5400,0,Шлемы заберут на стойке
+BR-261115-00127,2026-11-15,north_slope,snowboard,desk,paid,2,4400,0,Шлемы заберут на стойке
+BR-261115-00129,2026-11-15,north_slope,snowboard,phone,paid,1,1400,0,Оплата по ссылке
+BR-261115-00133,2026-11-15,north_slope,ski,site,paid,1,1620,0,
+BR-261115-00134,2026-11-15,north_slope,tube,desk,partially_refunded,2,1400,700,Сдали один комплект раньше
+BR-261115-00136,2026-11-15,north_slope,ski,desk,paid,2,1800,0,Выдача по QR
+BR-261115-00137,2026-11-15,north_slope,snowboard,phone,cancelled,2,0,0,Отменено до оплаты
+BR-261115-00141,2026-11-15,north_slope,ski,site,paid,4,4800,0,Проверить размер ботинок
+BR-261115-00145,2026-11-15,north_slope,ski,site,paid,3,2700,0,Выдача по QR
+BR-261116-00097,2026-11-16,ice_center,skate,desk,paid,2,1170,0,Проверить размер ботинок
+BR-261116-00099,2026-11-16,ice_center,skate,site,pending,1,0,0,Подтверждение не получено
+BR-261116-00102,2026-11-16,ice_center,skate,site,paid,1,900,0,
+BR-261116-00103,2026-11-16,ice_center,skate,site,paid,1,900,0,Выдача по QR
+BR-261116-00105,2026-11-16,ice_center,skate,phone,paid,1,900,0,
+BR-261116-00107,2026-11-16,forest_base,ski,desk,paid,2,2400,0,
+BR-261116-00110,2026-11-16,forest_base,tube,phone,paid,4,1600,0,
+BR-261116-00113,2026-11-16,forest_base,ski,desk,refunded,1,900,900,Дублирующая бронь
+BR-261116-00117,2026-11-16,forest_base,ski,desk,cancelled,2,0,0,Отменено до оплаты
+BR-261116-00120,2026-11-16,forest_base,ski,desk,partially_refunded,2,1800,900,Сдали один комплект раньше
+BR-261116-00124,2026-11-16,forest_base,ski,site,paid,1,900,0,"Два комплекта, выдача вместе"
+BR-261116-00125,2026-11-16,forest_base,ski,site,cancelled,4,0,0,Поменяли точку выдачи
+BR-261116-00127,2026-11-16,north_slope,ski,desk,cancelled,2,0,0,Не подтвердили время
+BR-261116-00128,2026-11-16,north_slope,snowboard,desk,paid,2,3240,0,Проверить размер ботинок
+BR-261116-00131,2026-11-16,north_slope,snowboard,site,paid,1,1800,0,Выдача по QR
+BR-261116-00132,2026-11-16,north_slope,ski,site,cancelled,1,0,0,Не подтвердили время
+BR-261116-00136,2026-11-16,north_slope,ski,site,refunded,1,1620,1620,Отмена до выдачи
+BR-261116-00138,2026-11-16,north_slope,tube,site,paid,4,2200,0,Оплата по ссылке
+BR-261116-00141,2026-11-16,north_slope,ski,desk,paid,6,7200,0,Выдача по QR
+BR-261116-00145,2026-11-16,north_slope,tube,site,paid,4,2200,0,Проверить размер ботинок
+BR-261117-00020,2026-11-17,ice_center,skate,site,paid,3,1950,0,
+BR-261117-00024,2026-11-17,ice_center,skate,site,refunded,1,900,900,Возврат по погоде
+BR-261117-00025,2026-11-17,ice_center,skate,site,paid,1,650,0,"Два комплекта, выдача вместе"
+BR-261117-00027,2026-11-17,ice_center,skate,desk,paid,3,2700,0,Оплата по ссылке
+BR-261117-00029,2026-11-17,ice_center,skate,site,paid,1,650,0,Оплата по ссылке
+BR-261117-00032,2026-11-17,ice_center,skate,site,paid,1,650,0,
+BR-261117-00034,2026-11-17,ice_center,skate,site,paid,3,1350,0,Шлемы заберут на стойке
+BR-261117-00037,2026-11-17,ice_center,skate,phone,paid,2,1300,0,
+BR-261117-00038,2026-11-17,ice_center,skate,desk,paid,1,900,0,Оплата по ссылке
+BR-261117-00041,2026-11-17,ice_center,skate,site,refunded,3,2700,2700,Дублирующая бронь
+BR-261117-00045,2026-11-17,ice_center,skate,site,paid,2,1800,0,Оплата по ссылке
+BR-261117-00047,2026-11-17,forest_base,ski,site,paid,3,3600,0,
+BR-261117-00048,2026-11-17,forest_base,ski,desk,partially_refunded,1,1800,900,Сдали один комплект раньше
+BR-261117-00050,2026-11-17,forest_base,tube,site,paid,1,550,0,Выдача по QR
+BR-261117-00052,2026-11-17,forest_base,ski,desk,paid,1,1800,0,Оплата по ссылке
+BR-261117-00053,2026-11-17,forest_base,ski,site,cancelled,1,0,0,Поменяли точку выдачи
+BR-261117-00057,2026-11-17,forest_base,ski,site,paid,1,900,0,
+BR-261117-00061,2026-11-17,forest_base,ski,site,cancelled,6,0,0,Поменяли точку выдачи
+BR-261117-00065,2026-11-17,forest_base,ski,site,paid,3,5400,0,
+BR-261117-00066,2026-11-17,forest_base,tube,site,paid,1,400,0,
+BR-261117-00068,2026-11-17,north_slope,snowboard,site,paid,3,5400,0,Проверить размер ботинок
+BR-261117-00070,2026-11-17,north_slope,ski,desk,partially_refunded,1,1200,600,Сократили время проката
+BR-261117-00074,2026-11-17,north_slope,ski,desk,paid,1,1200,0,Проверить размер ботинок
+BR-261117-00077,2026-11-17,north_slope,ski,desk,pending,1,0,0,Ожидает оплату по ссылке
+BR-261117-00081,2026-11-17,north_slope,snowboard,site,paid,1,1400,0,"Два комплекта, выдача вместе"
+BR-261117-00083,2026-11-17,north_slope,ski,desk,paid,1,900,0,Выдача по QR
+BR-261117-00087,2026-11-17,north_slope,snowboard,desk,paid,2,2800,0,Проверить размер ботинок
+BR-261117-00089,2026-11-17,north_slope,ski,desk,partially_refunded,2,1800,900,Перенос части брони
+BR-261117-00092,2026-11-17,north_slope,ski,desk,paid,1,1200,0,
+BR-261118-00069,2026-11-18,ice_center,skate,site,paid,2,1620,0,Шлемы заберут на стойке
+BR-261118-00071,2026-11-18,ice_center,skate,phone,paid,3,1350,0,Проверить размер ботинок
+BR-261118-00073,2026-11-18,ice_center,skate,site,paid,2,1800,0,Оплата по ссылке
+BR-261118-00075,2026-11-18,ice_center,skate,desk,paid,2,900,0,Проверить размер ботинок
+BR-261118-00077,2026-11-18,ice_center,skate,desk,partially_refunded,1,450,225,Перенос части брони
+BR-261118-00078,2026-11-18,ice_center,skate,site,paid,1,450,0,
+BR-261118-00082,2026-11-18,ice_center,skate,site,partially_refunded,1,650,325,Перенос части брони
+BR-261118-00085,2026-11-18,ice_center,skate,site,paid,1,650,0,Шлемы заберут на стойке
+BR-261118-00087,2026-11-18,ice_center,skate,desk,cancelled,2,0,0,Отменено до оплаты
+BR-261118-00091,2026-11-18,ice_center,skate,site,pending,1,0,0,Ожидает оплату по ссылке
+BR-261118-00094,2026-11-18,ice_center,skate,phone,paid,4,3600,0,
+BR-261118-00096,2026-11-18,forest_base,ski,desk,paid,3,3600,0,
+BR-261118-00097,2026-11-18,forest_base,ski,desk,paid,1,1620,0,
+BR-261118-00099,2026-11-18,forest_base,ski,site,paid,1,900,0,Проверить размер ботинок
+BR-261118-00100,2026-11-18,forest_base,ski,site,paid,1,1200,0,Оплата по ссылке
+BR-261118-00104,2026-11-18,forest_base,ski,phone,paid,1,1200,0,"Два комплекта, выдача вместе"
+BR-261118-00107,2026-11-18,forest_base,tube,site,paid,2,1400,0,"Два комплекта, выдача вместе"
+BR-261118-00108,2026-11-18,forest_base,tube,phone,paid,2,1100,0,Выдача по QR
+BR-261118-00111,2026-11-18,forest_base,tube,desk,partially_refunded,4,1600,400,Часть комплекта вернули
+BR-261118-00112,2026-11-18,forest_base,tube,desk,paid,1,550,0,Шлемы заберут на стойке
+BR-261118-00116,2026-11-18,north_slope,ski,desk,paid,1,900,0,
+BR-261118-00119,2026-11-18,north_slope,tube,site,paid,2,1100,0,
+BR-261118-00122,2026-11-18,north_slope,snowboard,desk,paid,1,2200,0,"Два комплекта, выдача вместе"
+BR-261118-00125,2026-11-18,north_slope,snowboard,desk,paid,1,1260,0,Проверить размер ботинок
+BR-261118-00128,2026-11-18,north_slope,snowboard,site,paid,2,4400,0,
+BR-261118-00130,2026-11-18,north_slope,snowboard,desk,cancelled,1,0,0,Отменено до оплаты
+BR-261119-00046,2026-11-19,ice_center,skate,desk,paid,2,900,0,
+BR-261119-00049,2026-11-19,ice_center,skate,desk,paid,3,2430,0,Шлемы заберут на стойке
+BR-261119-00053,2026-11-19,ice_center,skate,site,refunded,4,3600,3600,Возврат по погоде
+BR-261119-00054,2026-11-19,ice_center,skate,site,paid,1,650,0,
+BR-261119-00055,2026-11-19,ice_center,skate,phone,paid,2,900,0,
+BR-261119-00058,2026-11-19,ice_center,skate,desk,partially_refunded,1,900,450,Сдали один комплект раньше
+BR-261119-00062,2026-11-19,ice_center,skate,desk,paid,1,450,0,Шлемы заберут на стойке
+BR-261119-00064,2026-11-19,ice_center,skate,desk,refunded,6,5400,5400,Возврат по погоде
+BR-261119-00065,2026-11-19,ice_center,skate,site,paid,4,1800,0,
+BR-261119-00066,2026-11-19,ice_center,skate,site,paid,3,1950,0,Шлемы заберут на стойке
+BR-261119-00070,2026-11-19,forest_base,ski,desk,paid,1,900,0,Шлемы заберут на стойке
+BR-261119-00072,2026-11-19,forest_base,tube,site,partially_refunded,1,400,200,Часть комплекта вернули
+BR-261119-00075,2026-11-19,forest_base,ski,site,paid,1,900,0,Оплата по ссылке
+BR-261119-00076,2026-11-19,forest_base,ski,desk,paid,3,3600,0,Выдача по QR
+BR-261119-00080,2026-11-19,forest_base,ski,phone,paid,4,7200,0,
+BR-261119-00083,2026-11-19,forest_base,tube,desk,paid,2,720,0,Шлемы заберут на стойке
+BR-261119-00087,2026-11-19,forest_base,ski,desk,paid,4,7200,0,Выдача по QR
+BR-261119-00089,2026-11-19,forest_base,ski,desk,paid,2,2400,0,
+BR-261119-00091,2026-11-19,north_slope,snowboard,site,paid,1,1800,0,
+BR-261119-00093,2026-11-19,north_slope,ski,site,paid,2,3600,0,"Два комплекта, выдача вместе"
+BR-261119-00095,2026-11-19,north_slope,ski,desk,paid,1,1800,0,Оплата по ссылке
+BR-261119-00097,2026-11-19,north_slope,ski,phone,paid,2,3600,0,
+BR-261119-00101,2026-11-19,north_slope,tube,site,paid,1,400,0,"Два комплекта, выдача вместе"
+BR-261119-00104,2026-11-19,north_slope,tube,desk,paid,3,2100,0,Выдача по QR
+BR-261119-00107,2026-11-19,north_slope,ski,desk,paid,4,3600,0,"Два комплекта, выдача вместе"
+BR-261120-00057,2026-11-20,ice_center,skate,site,paid,2,900,0,Проверить размер ботинок
+BR-261120-00060,2026-11-20,ice_center,skate,phone,paid,1,650,0,
+BR-261120-00064,2026-11-20,ice_center,skate,desk,partially_refunded,1,405,202,Перенос части брони
+BR-261120-00068,2026-11-20,ice_center,skate,site,paid,4,3600,0,Проверить размер ботинок
+BR-261120-00069,2026-11-20,ice_center,skate,site,paid,3,2700,0,Шлемы заберут на стойке
+BR-261120-00071,2026-11-20,ice_center,skate,site,paid,4,3600,0,Шлемы заберут на стойке
+BR-261120-00075,2026-11-20,ice_center,skate,site,paid,4,2600,0,
+BR-261120-00077,2026-11-20,ice_center,skate,site,paid,1,650,0,
+BR-261120-00081,2026-11-20,ice_center,skate,desk,paid,1,450,0,
+BR-261120-00084,2026-11-20,ice_center,skate,site,paid,3,1950,0,Выдача по QR
+BR-261120-00088,2026-11-20,forest_base,ski,desk,paid,4,6480,0,
+BR-261120-00091,2026-11-20,forest_base,ski,site,paid,2,3600,0,
+BR-261120-00095,2026-11-20,forest_base,ski,phone,partially_refunded,2,2400,1200,Сократили время проката
+BR-261120-00099,2026-11-20,forest_base,ski,phone,cancelled,1,0,0,Поменяли точку выдачи
+BR-261120-00102,2026-11-20,forest_base,ski,site,paid,1,1080,0,Оплата по ссылке
+BR-261120-00103,2026-11-20,forest_base,ski,site,paid,3,2700,0,
+BR-261120-00104,2026-11-20,north_slope,snowboard,site,paid,1,2200,0,"Два комплекта, выдача вместе"
+BR-261120-00105,2026-11-20,north_slope,tube,site,paid,1,550,0,"Два комплекта, выдача вместе"
+BR-261120-00109,2026-11-20,north_slope,tube,site,paid,1,700,0,
+BR-261120-00111,2026-11-20,north_slope,snowboard,phone,paid,1,1400,0,
+BR-261120-00112,2026-11-20,north_slope,ski,desk,paid,3,2700,0,
+BR-261120-00116,2026-11-20,north_slope,ski,site,paid,1,1200,0,
+BR-261121-00088,2026-11-21,ice_center,skate,desk,paid,5,3250,0,
+BR-261121-00092,2026-11-21,ice_center,skate,desk,paid,2,900,0,
+BR-261121-00094,2026-11-21,ice_center,skate,phone,paid,1,450,0,
+BR-261121-00095,2026-11-21,ice_center,skate,phone,paid,2,1300,0,
+BR-261121-00099,2026-11-21,ice_center,skate,desk,paid,3,1350,0,Выдача по QR
+BR-261121-00101,2026-11-21,ice_center,skate,site,cancelled,1,0,0,Отменено до оплаты
+BR-261121-00102,2026-11-21,ice_center,skate,site,paid,2,1300,0,Оплата по ссылке
+BR-261121-00106,2026-11-21,ice_center,skate,site,paid,3,1350,0,"Два комплекта, выдача вместе"
+BR-261121-00108,2026-11-21,ice_center,skate,site,paid,1,450,0,
+BR-261121-00110,2026-11-21,ice_center,skate,site,paid,2,1300,0,
+BR-261121-00111,2026-11-21,ice_center,skate,desk,paid,1,900,0,Проверить размер ботинок
+BR-261121-00113,2026-11-21,ice_center,skate,phone,paid,2,1800,0,Оплата по ссылке
+BR-261121-00115,2026-11-21,ice_center,skate,site,paid,2,1300,0,
+BR-261121-00117,2026-11-21,ice_center,skate,site,partially_refunded,1,450,225,Часть комплекта вернули
+BR-261121-00121,2026-11-21,ice_center,skate,desk,cancelled,3,0,0,Отменено до оплаты
+BR-261121-00122,2026-11-21,ice_center,skate,site,paid,2,900,0,Шлемы заберут на стойке
+BR-261121-00124,2026-11-21,ice_center,skate,site,paid,1,650,0,
+BR-261121-00126,2026-11-21,forest_base,tube,site,paid,2,800,0,
+BR-261121-00129,2026-11-21,forest_base,tube,desk,paid,6,2160,0,Оплата по ссылке
+BR-261121-00132,2026-11-21,forest_base,tube,site,paid,4,1600,0,Шлемы заберут на стойке
+BR-261121-00136,2026-11-21,forest_base,tube,desk,partially_refunded,1,400,200,Перенос части брони
+BR-261121-00140,2026-11-21,forest_base,tube,site,paid,1,400,0,
+BR-261121-00141,2026-11-21,forest_base,tube,site,paid,1,550,0,
+BR-261121-00144,2026-11-21,forest_base,tube,desk,paid,1,630,0,
+BR-261121-00145,2026-11-21,forest_base,tube,site,paid,2,800,0,
+BR-261121-00148,2026-11-21,forest_base,tube,site,partially_refunded,2,1100,550,Сдали один комплект раньше
+BR-261121-00151,2026-11-21,forest_base,tube,desk,refunded,3,1650,1650,Отмена до выдачи
+BR-261121-00154,2026-11-21,forest_base,tube,desk,paid,3,1650,0,Оплата по ссылке
+BR-261121-00155,2026-11-21,forest_base,tube,site,paid,1,700,0,
+BR-261121-00157,2026-11-21,forest_base,tube,site,paid,1,550,0,"Два комплекта, выдача вместе"
+BR-261121-00160,2026-11-21,forest_base,tube,phone,paid,4,2800,0,Оплата по ссылке
+BR-261121-00163,2026-11-21,north_slope,ski,site,paid,4,3600,0,Оплата по ссылке
+BR-261121-00166,2026-11-21,north_slope,tube,site,refunded,1,700,700,Возврат по погоде
+BR-261121-00168,2026-11-21,north_slope,snowboard,site,paid,1,1980,0,Выдача по QR
+BR-261121-00169,2026-11-21,north_slope,ski,desk,pending,1,0,0,
+BR-261121-00170,2026-11-21,north_slope,tube,site,paid,1,550,0,Выдача по QR
+BR-261121-00173,2026-11-21,north_slope,snowboard,site,paid,1,2200,0,Оплата по ссылке
+BR-261121-00177,2026-11-21,north_slope,ski,desk,paid,1,900,0,
+BR-261121-00180,2026-11-21,north_slope,snowboard,site,paid,4,5600,0,
+BR-261121-00183,2026-11-21,north_slope,tube,site,paid,4,2800,0,Выдача по QR
+BR-261121-00187,2026-11-21,north_slope,ski,desk,paid,3,5400,0,
+BR-261121-00191,2026-11-21,north_slope,snowboard,desk,paid,2,2800,0,
+BR-261121-00193,2026-11-21,north_slope,snowboard,site,paid,4,8800,0,Проверить размер ботинок
+BR-261121-00197,2026-11-21,north_slope,snowboard,site,paid,1,2200,0,Оплата по ссылке
+BR-261121-00200,2026-11-21,north_slope,ski,desk,cancelled,6,0,0,Поменяли точку выдачи
+BR-261121-00201,2026-11-21,north_slope,ski,site,paid,3,2700,0,Шлемы заберут на стойке
+BR-261121-00417,2026-11-21,forest_base,ski,site,paid,2,2400,0,"Комплекты к 11:30, выдача у бокового входа"
+BR-261121-00428,2026-11-21,forest_base,ski,desk,partially_refunded,3,3600,1200,"Два комплекта забрали, за один вернули оплату"
+BR-261121-00439,2026-11-21,forest_base,ski,phone,refunded,1,1800,1800,Отмена до выдачи
+BR-261121-00455,2026-11-21,forest_base,ski,site,cancelled,1,0,0,Перенесли бронь на воскресенье
+BR-261122-00074,2026-11-22,ice_center,skate,phone,paid,4,2600,0,Шлемы заберут на стойке
+BR-261122-00078,2026-11-22,ice_center,skate,site,paid,1,650,0,"Два комплекта, выдача вместе"
+BR-261122-00081,2026-11-22,ice_center,skate,desk,paid,3,1350,0,
+BR-261122-00082,2026-11-22,ice_center,skate,site,paid,1,900,0,Оплата по ссылке
+BR-261122-00083,2026-11-22,ice_center,skate,desk,cancelled,3,0,0,Поменяли точку выдачи
+BR-261122-00087,2026-11-22,ice_center,skate,site,paid,5,3250,0,
+BR-261122-00091,2026-11-22,ice_center,skate,phone,paid,2,810,0,Проверить размер ботинок
+BR-261122-00093,2026-11-22,ice_center,skate,site,partially_refunded,1,900,450,Часть комплекта вернули
+BR-261122-00095,2026-11-22,ice_center,skate,desk,paid,4,1800,0,"Два комплекта, выдача вместе"
+BR-261122-00099,2026-11-22,ice_center,skate,site,paid,2,1300,0,
+BR-261122-00102,2026-11-22,ice_center,skate,desk,paid,1,450,0,Выдача по QR
+BR-261122-00105,2026-11-22,ice_center,skate,site,cancelled,1,0,0,Отменено до оплаты
+BR-261122-00106,2026-11-22,ice_center,skate,phone,paid,2,900,0,Шлемы заберут на стойке
+BR-261122-00109,2026-11-22,ice_center,skate,site,paid,1,650,0,"Два комплекта, выдача вместе"
+BR-261122-00112,2026-11-22,ice_center,skate,desk,paid,1,900,0,Шлемы заберут на стойке
+BR-261122-00113,2026-11-22,ice_center,skate,site,paid,2,900,0,
+BR-261122-00116,2026-11-22,ice_center,skate,site,paid,3,1755,0,"Два комплекта, выдача вместе"
+BR-261122-00119,2026-11-22,forest_base,ski,desk,partially_refunded,1,1800,900,Сдали один комплект раньше
+BR-261122-00120,2026-11-22,forest_base,tube,desk,paid,4,2800,0,Выдача по QR
+BR-261122-00123,2026-11-22,forest_base,tube,site,paid,2,800,0,
+BR-261122-00124,2026-11-22,forest_base,ski,site,paid,1,1800,0,
+BR-261122-00127,2026-11-22,forest_base,ski,desk,paid,2,2160,0,Шлемы заберут на стойке
+BR-261122-00130,2026-11-22,forest_base,tube,phone,paid,3,1080,0,"Два комплекта, выдача вместе"
+BR-261122-00134,2026-11-22,forest_base,tube,site,paid,1,630,0,
+BR-261122-00136,2026-11-22,forest_base,ski,desk,paid,1,900,0,Шлемы заберут на стойке
+BR-261122-00140,2026-11-22,forest_base,ski,desk,paid,2,1800,0,
+BR-261122-00144,2026-11-22,forest_base,ski,desk,cancelled,1,0,0,Поменяли точку выдачи
+BR-261122-00147,2026-11-22,forest_base,ski,site,paid,1,1200,0,
+BR-261122-00150,2026-11-22,north_slope,tube,desk,paid,4,2800,0,
+BR-261122-00153,2026-11-22,north_slope,ski,desk,paid,1,900,0,Оплата по ссылке
+BR-261122-00156,2026-11-22,north_slope,snowboard,phone,paid,1,1260,0,
+BR-261122-00159,2026-11-22,north_slope,snowboard,site,cancelled,1,0,0,Отменено до оплаты
+BR-261122-00160,2026-11-22,north_slope,ski,site,paid,6,9720,0,
+BR-261122-00164,2026-11-22,north_slope,tube,site,paid,2,1100,0,Шлемы заберут на стойке
+BR-261122-00168,2026-11-22,north_slope,ski,desk,paid,1,1800,0,Выдача по QR
+BR-261122-00170,2026-11-22,north_slope,ski,site,cancelled,1,0,0,Отменено до оплаты
+BR-261122-00173,2026-11-22,north_slope,ski,site,pending,3,0,0,Ожидает оплату по ссылке
+BR-261122-00177,2026-11-22,north_slope,snowboard,desk,paid,3,5400,0,Оплата по ссылке
+BR-261122-00181,2026-11-22,north_slope,ski,site,paid,1,900,0,Проверить размер ботинок
+BR-261123-00079,2026-11-23,ice_center,skate,site,paid,4,1620,0,
+BR-261123-00081,2026-11-23,ice_center,skate,desk,paid,2,900,0,Выдача по QR
+BR-261123-00083,2026-11-23,ice_center,skate,site,cancelled,1,0,0,Не подтвердили время
+BR-261123-00085,2026-11-23,ice_center,skate,site,refunded,2,1300,1300,Не подошёл размер
+BR-261123-00089,2026-11-23,ice_center,skate,site,partially_refunded,3,1950,650,Часть комплекта вернули
+BR-261123-00093,2026-11-23,ice_center,skate,site,paid,3,2700,0,Шлемы заберут на стойке
+BR-261123-00096,2026-11-23,forest_base,tube,desk,cancelled,3,0,0,Поменяли точку выдачи
+BR-261123-00099,2026-11-23,forest_base,tube,desk,paid,2,720,0,Проверить размер ботинок
+BR-261123-00101,2026-11-23,forest_base,ski,site,partially_refunded,1,900,450,Сдали один комплект раньше
+BR-261123-00102,2026-11-23,forest_base,ski,desk,paid,2,2400,0,"Два комплекта, выдача вместе"
+BR-261123-00105,2026-11-23,forest_base,ski,desk,paid,3,2700,0,
+BR-261123-00106,2026-11-23,forest_base,ski,site,partially_refunded,2,2400,1200,Часть комплекта вернули
+BR-261123-00110,2026-11-23,forest_base,tube,phone,paid,2,1400,0,"Два комплекта, выдача вместе"
+BR-261123-00113,2026-11-23,forest_base,ski,site,paid,1,1800,0,Шлемы заберут на стойке
+BR-261123-00114,2026-11-23,forest_base,ski,desk,paid,5,5400,0,
+BR-261123-00116,2026-11-23,forest_base,ski,site,paid,5,9000,0,Шлемы заберут на стойке
+BR-261123-00117,2026-11-23,forest_base,ski,desk,paid,4,4800,0,Шлемы заберут на стойке
+BR-261123-00119,2026-11-23,north_slope,ski,phone,paid,1,1800,0,
+BR-261123-00120,2026-11-23,north_slope,tube,site,paid,1,495,0,
+BR-261123-00123,2026-11-23,north_slope,ski,phone,paid,1,1620,0,
+BR-261123-00125,2026-11-23,north_slope,ski,desk,paid,1,1200,0,"Два комплекта, выдача вместе"
+BR-261123-00129,2026-11-23,north_slope,tube,phone,paid,3,2100,0,Оплата по ссылке
+BR-261123-00132,2026-11-23,north_slope,snowboard,site,paid,5,11000,0,
+BR-261123-00136,2026-11-23,north_slope,snowboard,phone,paid,2,4400,0,
+BR-261123-00139,2026-11-23,north_slope,ski,site,paid,2,2400,0,Выдача по QR
+BR-261123-00141,2026-11-23,north_slope,ski,site,paid,2,2160,0,Проверить размер ботинок
+BR-261124-00098,2026-11-24,ice_center,skate,desk,paid,2,900,0,Проверить размер ботинок
+BR-261124-00102,2026-11-24,ice_center,skate,desk,paid,1,900,0,"Два комплекта, выдача вместе"
+BR-261124-00106,2026-11-24,ice_center,skate,site,paid,2,1300,0,Проверить размер ботинок
+BR-261124-00110,2026-11-24,ice_center,skate,desk,paid,5,3250,0,
+BR-261124-00111,2026-11-24,ice_center,skate,site,cancelled,3,0,0,Поменяли точку выдачи
+BR-261124-00114,2026-11-24,ice_center,skate,desk,paid,1,650,0,Выдача по QR
+BR-261124-00118,2026-11-24,ice_center,skate,site,paid,3,1350,0,
+BR-261124-00119,2026-11-24,ice_center,skate,site,paid,2,900,0,Оплата по ссылке
+BR-261124-00123,2026-11-24,ice_center,skate,desk,paid,1,900,0,Проверить размер ботинок
+BR-261124-00126,2026-11-24,ice_center,skate,site,paid,1,450,0,
+BR-261124-00130,2026-11-24,ice_center,skate,site,cancelled,1,0,0,Отменено до оплаты
+BR-261124-00133,2026-11-24,forest_base,ski,phone,partially_refunded,1,1200,600,Сократили время проката
+BR-261124-00135,2026-11-24,forest_base,tube,site,paid,3,1200,0,
+BR-261124-00139,2026-11-24,forest_base,tube,desk,paid,2,1400,0,
+BR-261124-00143,2026-11-24,forest_base,ski,site,paid,5,4500,0,
+BR-261124-00147,2026-11-24,forest_base,ski,site,paid,1,1200,0,
+BR-261124-00149,2026-11-24,forest_base,ski,site,paid,2,2160,0,
+BR-261124-00151,2026-11-24,forest_base,ski,site,paid,3,2700,0,Шлемы заберут на стойке
+BR-261124-00155,2026-11-24,forest_base,ski,site,partially_refunded,2,3600,1800,Часть комплекта вернули
+BR-261124-00159,2026-11-24,forest_base,ski,phone,paid,1,1800,0,"Два комплекта, выдача вместе"
+BR-261124-00163,2026-11-24,forest_base,tube,site,paid,1,550,0,"Два комплекта, выдача вместе"
+BR-261124-00165,2026-11-24,forest_base,ski,desk,paid,3,5400,0,"Два комплекта, выдача вместе"
+BR-261124-00168,2026-11-24,north_slope,ski,site,paid,4,3600,0,
+BR-261124-00171,2026-11-24,north_slope,snowboard,site,paid,2,2800,0,Шлемы заберут на стойке
+BR-261124-00175,2026-11-24,north_slope,ski,site,paid,2,3600,0,Шлемы заберут на стойке
+BR-261124-00177,2026-11-24,north_slope,tube,desk,paid,2,1100,0,
+BR-261124-00178,2026-11-24,north_slope,tube,desk,paid,1,630,0,Выдача по QR
+BR-261124-00181,2026-11-24,north_slope,ski,site,paid,2,2160,0,Проверить размер ботинок
+BR-261124-00183,2026-11-24,north_slope,snowboard,site,paid,2,4400,0,Выдача по QR
+BR-261124-00187,2026-11-24,north_slope,snowboard,phone,paid,1,1400,0,Шлемы заберут на стойке

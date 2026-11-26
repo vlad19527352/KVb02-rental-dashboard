@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>browser-check</title>
+<style>
+  html, body { margin: 0; padding: 0; }
+  iframe { width: 1440px; height: 900px; border: 0; }
+  #out { position: fixed; left: -9999px; }
+</style>
+</head>
+<body>
+<iframe id="frame" src="../index.html"></iframe>
+<pre id="out">loading</pre>
+<script>
+  var frame = document.getElementById('frame');
+  var results = {};
+  var out = document.getElementById('out');
+
+  function wait(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+
+  function ready() {
+    var w = frame.contentWindow;
+    return w && w.RentalCore && typeof w.kodaLoadCsv === 'function';
+  }
+
+  function poll() {
+    if (ready()) return Promise.resolve();
+    return wait(50).then(poll);
+  }
+
+  function rowsOf(csv) {
+    return frame.contentWindow.RentalCore.parseCsv(csv).filter(function (r) {
+      return !(r.length === 1 && r[0] === '');
+    });
+  }
+
+  function chip(d, host, code) {
+    d.querySelector('#' + host + ' .chip[data-code="' + code + '"]').click();
+  }
+
+  function setDates(d, from, to) {
+    var a = d.getElementById('dateFrom');
+    var b = d.getElementById('dateTo');
+    a.value = from; a.dispatchEvent(new Event('change'));
+    b.value = to; b.dispatchEvent(new Event('change'));
+  }
+
+  function kpis(d) {
+    return {
+      total: d.getElementById('kpiTotal').textContent,
+      paid: d.getElementById('kpiPaid').textContent,
+      net: d.getElementById('kpiNet').textContent.replace(/\u00a0/g, ' '),
+      refund: d.getElementById('kpiRefund').textContent.replace(/\u00a0/g, ' '),
+      notice: !d.getElementById('emptyNotice').hidden,
+      rows: d.querySelectorAll('#bookingsBody tr').length,
+      downloadsEnabled: Array.prototype.every.call(d.querySelectorAll('[data-export]'), function (b) { return !b.disabled; }),
+      errorShown: !d.getElementById('errorBox').hidden,
+      errorText: d.getElementById('errorBox').textContent.slice(0, 200),
+      chartBars: d.querySelectorAll('#chart rect.bar').length
+    };
+  }
+
+  var captured = {};
+
+  poll().then(function () {
+    var w = frame.contentWindow;
+    var d = w.document;
+
+    w.URL.createObjectURL = function (blob) { captured.blob = blob; return 'blob:stub'; };
+    w.URL.revokeObjectURL = function () {};
+    w.HTMLAnchorElement.prototype.click = function () { captured.name = this.download; };
+
+    return fetch('../data/bookings.csv')
+      .then(function (r) { return r.text(); })
+      .then(function (text) {
+        w.kodaLoadCsv(text, 'bookings.csv');
+        return wait(250);
+      })
+      .then(function () {
+        results.full = kpis(d);
+
+        setDates(d, '2026-11-21', '2026-11-21');
+        chip(d, 'pointChips', 'forest_base');
+        chip(d, 'activityChips', 'ski');
+        return wait(250);
+      })
+      .then(function () {
+        results.sample = kpis(d);
+        d.querySelector('[data-export="bookings"]').click();
+        return captured.blob.text().then(function (t) {
+          var rows = rowsOf(t);
+          results.sampleBookingsCsv = {
+            name: captured.name,
+            rows: rows.length,
+            header: rows[0].join(','),
+            ids: rows.slice(1).map(function (r) { return r[0]; }).join(',')
+          };
+        });
+      })
+      .then(function () {
+        d.querySelector('[data-export="revenueByDay"]').click();
+        return captured.blob.text().then(function (t) {
+          var rows = rowsOf(t);
+          results.sampleDayCsv = { name: captured.name, rows: rows.length, header: rows[0].join(','), data: rows[1] ? rows[1].join(',') : null };
+        });
+      })
+      .then(function () {
+        d.querySelector('[data-export="revenueByPointActivity"]').click();
+        return captured.blob.text().then(function (t) {
+          var rows = rowsOf(t);
+          results.sampleGroupCsv = { name: captured.name, rows: rows.length, header: rows[0].join(','), data: rows[1] ? rows[1].join(',') : null };
+        });
+      })
+      .then(function () {
+        d.querySelector('[data-export="refunds"]').click();
+        return captured.blob.text().then(function (t) {
+          var rows = rowsOf(t);
+          results.sampleRefundCsv = { name: captured.name, rows: rows.length, ids: rows.slice(1).map(function (r) { return r[0]; }).join(',') };
+        });
+      })
+      .then(function () {
+        d.getElementById('resetFilters').click();
+        setDates(d, '2026-11-21', '2026-11-22');
+        return wait(250);
+      })
+      .then(function () {
+        results.twoDays = kpis(d);
+        results.twoDays.page = d.getElementById('pageInfo').textContent;
+        d.querySelector('[data-export="bookings"]').click();
+        return captured.blob.text().then(function (t) {
+          var rows = rowsOf(t);
+          results.twoDaysCsv = {
+            name: captured.name,
+            rows: rows.length,
+            first: rows[1] ? rows[1][0] + ' ' + rows[1][1] : null,
+            last: rows[rows.length - 1] ? rows[rows.length - 1][0] + ' ' + rows[rows.length - 1][1] : null
+          };
+        });
+      })
+      .then(function () {
+        var header = 'id,date,rental_point,activity,channel,status,quantity,amount,refund_amount,comment\n';
+        var bad = header +
+          'X-1,2026-11-01,ice_center,skate,site,paid,1,900,0,\n' +
+          'X-1,2026-11-02,ice_center,skate,site,paid,1,900,0,\n';
+        w.kodaLoadCsv(bad, 'broken.csv');
+        return wait(250);
+      })
+      .then(function () {
+        results.broken = kpis(d);
+        results.broken.fileName = d.getElementById('fileName').textContent;
+        results.broken.status = d.getElementById('loadStatus').textContent;
+        out.textContent = JSON.stringify(results, null, 2);
+        document.title = 'DONE';
+      });
+  }).catch(function (e) {
+    out.textContent = 'ERR ' + e.stack;
+    document.title = 'ERR';
+  });
+</script>
+</body>
+</html>

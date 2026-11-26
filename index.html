@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Прокат · Панель бронирований</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="page">
+
+  <header class="topbar">
+    <div>
+      <h1>Прокат · Бронирования</h1>
+      <p class="sub">Ноябрь 2026 · локальный разбор выгрузки, данные не покидают компьютер</p>
+    </div>
+    <div class="topbar-meta">
+      <div id="loadStatus" class="status status-idle">Файл не выбран</div>
+    </div>
+  </header>
+
+  <section class="panel upload-panel">
+    <div class="upload-row">
+      <label class="file-btn">
+        <input type="file" id="fileInput" accept=".csv,text/csv">
+        Выбрать CSV
+      </label>
+      <div class="upload-info">
+        <div class="upload-file" id="fileName">Файл не выбран</div>
+        <div class="upload-period" id="filePeriod">Доступный период появится после загрузки</div>
+      </div>
+      <button type="button" class="ghost" id="clearFile" disabled>Убрать файл</button>
+    </div>
+
+    <div class="dropzone" id="dropzone">Перетащите CSV-файл выгрузки сюда</div>
+
+    <div id="errorBox" class="error-box" hidden></div>
+    <div id="warnBox" class="warn-box" hidden></div>
+  </section>
+
+  <section class="panel filters" id="filtersPanel">
+    <div class="filter-row">
+      <div class="filter-group">
+        <span class="filter-label">Период проката</span>
+        <div class="date-range">
+          <input type="date" id="dateFrom" aria-label="Дата с">
+          <span class="dash">—</span>
+          <input type="date" id="dateTo" aria-label="Дата по">
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Точка выдачи</span>
+        <div class="chips" id="pointChips"></div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Инвентарь</span>
+        <div class="chips" id="activityChips"></div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Статус</span>
+        <div class="chips" id="statusChips"></div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Канал продажи</span>
+        <div class="chips" id="channelChips"></div>
+      </div>
+    </div>
+
+    <div class="filter-foot">
+      <div class="selection-count">В отборе: <b id="selectedCount">0</b> строк</div>
+      <button type="button" class="ghost" id="resetFilters">Сбросить фильтры</button>
+    </div>
+  </section>
+
+  <div class="notice" id="emptyNotice" hidden>
+    По выбранным условиям записей нет. Показаны нули, выгрузки содержат только заголовки.
+  </div>
+
+  <section class="kpis" aria-label="Показатели">
+    <article class="kpi">
+      <div class="kpi-label">Брони в отборе</div>
+      <div class="kpi-value" id="kpiTotal">—</div>
+      <div class="kpi-note">включая отмены и ожидание оплаты</div>
+    </article>
+    <article class="kpi">
+      <div class="kpi-label">Брони с оплатой</div>
+      <div class="kpi-value" id="kpiPaid">—</div>
+      <div class="kpi-note">положительный остаток после возврата</div>
+    </article>
+    <article class="kpi accent">
+      <div class="kpi-label">Чистая выручка</div>
+      <div class="kpi-value" id="kpiNet">—</div>
+      <div class="kpi-note" id="kpiNetNote">оплаты − возвраты</div>
+    </article>
+    <article class="kpi">
+      <div class="kpi-label">Возвраты</div>
+      <div class="kpi-value" id="kpiRefund">—</div>
+      <div class="kpi-note">полные и частичные</div>
+    </article>
+  </section>
+
+  <section class="panel chart-card">
+    <div class="panel-head">
+      <div>
+        <h2>Чистая выручка по дням</h2>
+        <p class="panel-sub">Сумма оплат за вычетом возвратов по дате проката, ₽</p>
+      </div>
+      <div class="chart-total">
+        <span>Итого за период</span>
+        <b id="chartTotal">—</b>
+      </div>
+    </div>
+    <div class="chart" id="chart"></div>
+  </section>
+
+  <section class="panel split-card">
+    <div class="panel-head">
+      <div>
+        <h2>Инвентарь</h2>
+        <p class="panel-sub">Чистая выручка и число броней с оплатой по видам проката</p>
+      </div>
+    </div>
+    <div class="breakdown" id="activityBreakdown"></div>
+  </section>
+
+  <section class="panel table-card">
+    <div class="panel-head">
+      <div>
+        <h2>Бронирования</h2>
+        <p class="panel-sub" id="tableSub">Нет данных</p>
+      </div>
+      <div class="pager">
+        <label>Строк на странице
+          <select id="pageSize">
+            <option value="25">25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+          </select>
+        </label>
+        <button type="button" class="ghost" id="prevPage" disabled>Назад</button>
+        <span id="pageInfo">—</span>
+        <button type="button" class="ghost" id="nextPage" disabled>Вперёд</button>
+      </div>
+    </div>
+    <div class="table-wrap" id="tableWrap">
+      <table id="bookingsTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Дата</th>
+            <th>Точка</th>
+            <th>Инвентарь</th>
+            <th>Канал</th>
+            <th>Статус</th>
+            <th class="num">Кол-во</th>
+            <th class="num">Оплата</th>
+            <th class="num">Возврат</th>
+            <th class="num">Чистая</th>
+            <th>Комментарий</th>
+          </tr>
+        </thead>
+        <tbody id="bookingsBody"></tbody>
+      </table>
+    </div>
+    <div class="table-empty" id="tableEmpty" hidden>По выбранным условиям записей нет.</div>
+  </section>
+
+  <section class="panel download-card" id="downloadPanel">
+    <div class="panel-head">
+      <div>
+        <h2>Скачать данные</h2>
+        <p class="panel-sub">Файлы строятся по текущему отбору: все строки, включая страницы, которые не открыты в таблице</p>
+      </div>
+    </div>
+    <div class="downloads">
+      <div class="download-item">
+        <div>
+          <b>Брони</b>
+          <span><code>bookings-selection.csv</code> · все исходные столбцы и строки отбора в исходном порядке</span>
+        </div>
+        <button type="button" class="primary" data-export="bookings" disabled>Скачать</button>
+      </div>
+      <div class="download-item">
+        <div>
+          <b>Выручка по дням</b>
+          <span><code>revenue-by-day.csv</code> · сводка по каждой дате проката, даты по возрастанию</span>
+        </div>
+        <button type="button" class="primary" data-export="revenueByDay" disabled>Скачать</button>
+      </div>
+      <div class="download-item">
+        <div>
+          <b>Точки и инвентарь</b>
+          <span><code>revenue-by-point-and-activity.csv</code> · пары точки и вида проката из отбора</span>
+        </div>
+        <button type="button" class="primary" data-export="revenueByPointActivity" disabled>Скачать</button>
+      </div>
+      <div class="download-item">
+        <div>
+          <b>Возвраты</b>
+          <span><code>refunds.csv</code> · строки отбора, где возврат больше нуля</span>
+        </div>
+        <button type="button" class="primary" data-export="refunds" disabled>Скачать</button>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script src="assets/core.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>overflow-check</title>
+<style>
+  html, body { margin: 0; padding: 0; }
+  #out { position: fixed; left: -9999px; }
+</style>
+</head>
+<body>
+<pre id="out">loading</pre>
+<script>
+  var width = Number((location.hash || '#1440').slice(1)) || 1440;
+  var frame = document.createElement('iframe');
+  frame.style.cssText = 'width:' + width + 'px;height:900px;border:0;display:block';
+  frame.src = '../index.html';
+  document.body.appendChild(frame);
+
+  function wait(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+
+  function poll(w) {
+    if (w.RentalCore && typeof w.kodaLoadCsv === 'function') return Promise.resolve();
+    return wait(40).then(function () { return poll(w); });
+  }
+
+  frame.addEventListener('load', function () {
+    var w = frame.contentWindow;
+    poll(w).then(function () {
+      return fetch('../data/bookings.csv')
+        .then(function (r) { return r.text(); })
+        .then(function (text) {
+          w.kodaLoadCsv(text, 'bookings.csv');
+          return wait(350);
+        });
+    }).then(function () {
+      var d = w.document;
+      var chart = d.getElementById('chart');
+      var tableWrap = d.getElementById('tableWrap');
+      var page = d.querySelector('.page');
+      var res = {
+        viewport: width,
+        docScrollWidth: d.documentElement.scrollWidth,
+        docClientWidth: d.documentElement.clientWidth,
+        bodyScrollWidth: d.body.scrollWidth,
+        pageScrollWidth: page.scrollWidth,
+        pageClientWidth: page.clientWidth,
+        chartScrollWidth: chart.scrollWidth,
+        chartClientWidth: chart.clientWidth,
+        tableInnerOverflow: tableWrap.scrollWidth - tableWrap.clientWidth,
+        horizontalPageScroll: d.documentElement.scrollWidth > d.documentElement.clientWidth
+      };
+      document.getElementById('out').textContent = JSON.stringify(res, null, 2);
+      document.title = 'DONE';
+    }).catch(function (e) {
+      document.getElementById('out').textContent = 'ERR ' + e.stack;
+      document.title = 'ERR';
+    });
+  });
+</script>
+</body>
+</html>

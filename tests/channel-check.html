@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="utf-8"><title>channel-check</title>
+<style>html,body{margin:0}#out{position:fixed;left:-9999px}iframe{width:1440px;height:900px;border:0}</style>
+</head>
+<body>
+<iframe id="frame" src="../index.html"></iframe>
+<pre id="out">loading</pre>
+<script>
+  var frame = document.getElementById('frame');
+  var results = {};
+  var captured = {};
+
+  function wait(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+  function poll(w) {
+    if (w.RentalCore && typeof w.kodaLoadCsv === 'function') return Promise.resolve();
+    return wait(40).then(function () { return poll(w); });
+  }
+  function rowsOf(w, csv) {
+    return w.RentalCore.parseCsv(csv).filter(function (r) { return !(r.length === 1 && r[0] === ''); });
+  }
+  function chip(d, host, code) {
+    d.querySelector('#' + host + ' .chip[data-code="' + code + '"]').click();
+  }
+  function snap(d) {
+    return {
+      total: d.getElementById('kpiTotal').textContent,
+      paid: d.getElementById('kpiPaid').textContent,
+      net: d.getElementById('kpiNet').textContent.replace(/\u00a0/g, ' '),
+      refund: d.getElementById('kpiRefund').textContent.replace(/\u00a0/g, ' '),
+      rows: d.querySelectorAll('#bookingsBody tr').length
+    };
+  }
+
+  frame.addEventListener('load', function () {
+    var w = frame.contentWindow;
+    var d = w.document;
+
+    w.URL.createObjectURL = function (blob) { captured.blob = blob; return 'blob:stub'; };
+    w.URL.revokeObjectURL = function () {};
+    w.HTMLAnchorElement.prototype.click = function () { captured.name = this.download; };
+
+    poll(w).then(function () {
+      return fetch('../data/bookings.csv').then(function (r) { return r.text(); });
+    }).then(function (text) {
+      w.kodaLoadCsv(text, 'bookings.csv');
+      return wait(200);
+    }).then(function () {
+      var a = d.getElementById('dateFrom');
+      var b = d.getElementById('dateTo');
+      a.value = '2026-11-21'; a.dispatchEvent(new Event('change'));
+      b.value = '2026-11-21'; b.dispatchEvent(new Event('change'));
+      chip(d, 'pointChips', 'forest_base');
+      chip(d, 'activityChips', 'ski');
+      return wait(200);
+    }).then(function () {
+      results.base = snap(d);
+      results.baseChannelChips = d.querySelectorAll('#channelChips .chip').length;
+
+      chip(d, 'channelChips', 'site');
+      return wait(200);
+    }).then(function () {
+      results.site = snap(d);
+      results.siteActive = d.querySelector('#channelChips .chip[data-code="site"]').className;
+      d.querySelector('[data-export="bookings"]').click();
+      return captured.blob.text().then(function (t) {
+        var rows = rowsOf(w, t);
+        results.siteCsv = {
+          name: captured.name,
+          rows: rows.length,
+          ids: rows.slice(1).map(function (r) { return r[0]; }).join(','),
+          channels: rows.slice(1).map(function (r) { return r[4]; }).join(',')
+        };
+      });
+    }).then(function () {
+      chip(d, 'channelChips', 'site');
+      chip(d, 'channelChips', 'desk');
+      return wait(200);
+    }).then(function () {
+      results.desk = snap(d);
+      d.querySelector('[data-export="refunds"]').click();
+      return captured.blob.text().then(function (t) {
+        var rows = rowsOf(w, t);
+        results.deskRefundCsv = { name: captured.name, rows: rows.length, ids: rows.slice(1).map(function (r) { return r[0]; }).join(',') };
+      });
+    }).then(function () {
+      chip(d, 'channelChips', 'desk');
+      return wait(200);
+    }).then(function () {
+      results.afterChannelReset = snap(d);
+      d.querySelector('[data-export="refunds"]').click();
+      return captured.blob.text().then(function (t) {
+        var rows = rowsOf(w, t);
+        results.afterResetRefundCsv = { name: captured.name, rows: rows.length, ids: rows.slice(1).map(function (r) { return r[0]; }).join(',') };
+      });
+    }).then(function () {
+      d.getElementById('resetFilters').click();
+      return wait(200);
+    }).then(function () {
+      results.afterFullReset = snap(d);
+      results.afterFullResetChannelActive = d.querySelectorAll('#channelChips .chip.active').length;
+      document.getElementById('out').textContent = JSON.stringify(results, null, 2);
+      document.title = 'DONE';
+    }).catch(function (e) {
+      document.getElementById('out').textContent = 'ERR ' + e.stack;
+      document.title = 'ERR';
+    });
+  });
+</script>
+</body>
+</html>
